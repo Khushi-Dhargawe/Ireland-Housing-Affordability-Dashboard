@@ -69,8 +69,6 @@ Built a relational data model with fact and dimension tables and 6 interactive v
 | Stacked area chart | Transaction value by year and dwelling status |
 | Donut chart | Share of sales by buyer type — highlights investor activity |
 | Combo chart | Median price vs sales volume over time |
-| Scatter chart | Price by dwelling status and year |
-| Combo chart | Annual median vs mean price — shows luxury sale effect |
 
 ---
 
@@ -110,22 +108,22 @@ Built a relational data model with fact and dimension tables and 6 interactive v
 
 ## Folder Structure
 
+```
 Ireland-Housing-Affordability-Dashboard/
 │
 ├── ireland_housing_cleaning.py
 ├── HPA02.csv
-├── cleaned_data/
-│   ├── HPA02_cleaned.csv
-│   ├── county_summary.csv
-│   ├── dwelling_summary.csv
-│   └── buyer_summary.csv
 ├── Ireland_Housing_Dashboard.pbix
 ├── IS6051-Group_3R.pdf
 ├── requirements.txt
 ├── LICENSE
-└── README.md
-
----
+├── README.md
+└── cleaned_data/
+    ├── HPA02_cleaned.csv
+    ├── county_summary.csv
+    ├── dwelling_summary.csv
+    └── buyer_summary.csv
+```
 
 ## How to Run
 
